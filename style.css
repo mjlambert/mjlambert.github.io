@@ -11,6 +11,7 @@ html, body {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 72pt;
+    text-align: center;
 }
 
 #container {
@@ -54,4 +55,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    
+    h1 {
+        font-size: 30pt;
+    }
+    
 }
