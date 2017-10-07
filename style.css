@@ -36,15 +36,10 @@ h1 {
 #content {
     flex: 1 1 auto;
     background-color: #F9F8F8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    padding: 10px 0;
-}
-
-#content > img {
-    max-height: 100%;
+    background-image: url(chimp_boat.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
 }
 
 #footer {
