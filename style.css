@@ -12,6 +12,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 72pt;
     text-align: center;
+    margin: 20px 0;
 }
 
 #container {
@@ -51,8 +52,15 @@ h1 {
     align-items: center;
 }
 
-@media only screen and (min-resolution: 192dpi),
-@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-resolution: 192dpi) {
+    
+    h1 {
+        font-size: 30pt;
+    }
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
     
     h1 {
         font-size: 30pt;
